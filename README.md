@@ -1,4 +1,4 @@
-echo-slack.js
+echo-slack.sh
 =================
 
 セットアップ
@@ -10,10 +10,10 @@ echo-slack.js
 ${HOME}/.config/slack-${ORG}-${CHANNEL}.rc
 
 ```text:
-exports.url        = "Your Incoming Webhook's URL";
+URL_SLACK_WEBHOOK='Your Incoming Webhook's URL'
 ```
 
-conf.js(sample):
+${HOME}/.config/slack-example-general.rc(sample):
 
 ```text:
 URL_SLACK_WEBHOOK='https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxx'
